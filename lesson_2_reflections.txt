@@ -1,0 +1,10 @@
+Lesson 2
+What happens when you initialize a repository? Why do you need to do it?
+Use git init to intialise current folder with an empty Git repo. need to
+'git add <file>' to include what will be committed.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Files in the staging area are not altered in directory. This is where you decide
+what changes you want to log as an actual commit. This allows you to organise
+your commits to more easily sort through history and find bugs.

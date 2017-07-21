@@ -8,3 +8,24 @@ What value do you think it offers?
 Files in the staging area are not altered in directory. This is where you decide
 what changes you want to log as an actual commit. This allows you to organise
 your commits to more easily sort through history and find bugs.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff to compare the staging area to the working directory before using git commit
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+Branches are used when trying alternative versions of the master. It can help by allowing 
+different versions ot be created at similar times without it affecting the other versions
+
+How do the diagrams help you visualize the branch structure?
+It allows you to more readily identify reachability parents of each commit.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+All lines of code are added together and become the new merged commit becomes the most 
+recent commit for both branches. It is represented with two lines drawn towards the merged
+commit to represent that all previous commits are now reachable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is faster but it may not be able to catch any bugs that may occur
+because of the added lines of code. With manual merging, conflicts or bugs can be sorted
